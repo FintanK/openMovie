@@ -1,0 +1,15 @@
+Notes
+
+THe application will make use of the IMDB endpoint
+
+
+// Similar movies
+select ?similarMovie ?genre ?director ?location ?actor where {
+  values ?movie { <http://.../TheMatrix> }
+  ?genre   ^:hasGenre ?movie, ?similarMovie .
+  ?director ^:hasDirectory ?movie, ?similarMovie .
+  ?location ^:hasLocation ?movie, ?similarMovie .
+  optional { ?actor ^:hasActor ?movie, ?similarMovie .
+}
+
+
