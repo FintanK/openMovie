@@ -15,7 +15,7 @@ require "../src/config.php";
 <h1>openMovie</h1>
 
 <p>This is a simple application which queries the DBPedia and IMDB SPARQL endpoints for film information. You can also
-    run your own custom queries against the endpoints.</p>
+    run your own custom queries against the endpoints. Movie title searches must be exact matches.</p>
 
 <ul>
     <li><a href="/">Home</a></li>
