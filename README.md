@@ -1,4 +1,4 @@
 # openMovie
 Basic app to query against SPARQL endpoints.
 
-![](http://wifo5-03.informatik.uni-mannheim.de/pubby/images/pubby-architecture.png)
+![](https://www.w3.org/People/Ivan/CorePresentations/figures/TutorialFigures/SPARQLUsage.png)
